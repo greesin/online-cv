@@ -1,264 +1,177 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Grigory Sinkov
+    tagline: CPO / Head of PMO / Product & Project Lead
+    avatar: profile.png
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: grigory.sinkov@gmail.com
+    phone: +7 (906) 031-23-78
+    telegram: grigory_sinkov
+    citizenship: Russia, Moscow
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Russian
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Music
           link:
 
-        - item: Snowboarding
+        - item: Videogames
           link:
 
-        - item: Cooking
+        - item: Travel
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Experienced manager with a demonstrated history of working in the IT area within differet type of buisnesses (B2B, B2C, digital, OPS, etc). Skilled in Product & Project Management, Agile Methodologies, Data Analysis and People Management.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Specialist, Project Management
+        university: Moscow State University of Economics, Statistics and Informatics (MESI) 
+        time: 2007 - 2012
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: CPO
+        time: January, 2023 — June, 2023
+        company: eApteka
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          I was responsible for the development of the digital block of eApteka (web, mobile, iOS, Android).
+
+          Responsibilities:
+          - Generating ideas, features, and projects to increase the main product metrics — CR, CRR, GMV.
+          - Organizing the work of the product office and product teams: hiring, motivating, training, creating organizational and functional structures, principles of interaction with development, etc.
+          - Prioritizing product backlogs in all areas.
+          - Preparing strategic plans and roadmaps, compiling and presenting reporting materials to the CEO and company investors.
+
+          Achievements:
+          - Achieved steady growth of CR across all platforms (web, iOS, Android).
+          - Increased the average check per order by ~20% p.p.
+          - Launched the possibility to order prescription drugs with delivery to the customer in the Russian Federation.
+          - Reviewed the structure of the product department with a reorganization towards product teams (including development) and product managers responsibility not for services, but for business domains and corresponding metrics in directions.
+      - role: CPO
+        time: August, 2021 — September, 2022
+        company: Yandex Delivery
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          I led the development of products responsible for managing the courier capacities of Yandex Delivery and their effective utilization.
+
+          Responsibilities:
+          - Development of a product for finding, selecting, and assigning performers to orders for all of Yandex and external partners.
+          - Generating ideas / features/ projects, testing hypotheses, and overseeing their implementation within the development of both the main Delivery products and in adjacent units (Taxi, Food, Lavka, Market).
+          - Building and optimizing the product team's processes (defining metrics, facilitating and moderating the creation of backlogs, determining the main stages of product development, building development processes, creating and conducting product demos, etc.).
+          - Hiring, team building, setting and monitoring goals for both my direction and assisting with goal setting in adjacent streams and teams.
+
+          Achievements:
+          - Reduced the CPO across all business by ~24% by creating and optimizing a product for data-analytical and algorithmic assignment of performers to Delivery, Food, Lavka, and Market orders.
+          - Built a product team of analytics and data from scratch, working in RnD mode, the total activity of which brought savings of ~250 million rubles per year for the entire service.
+          - Conceived and led the creation of infrastructural and architectural solutions for the rapid launch of business and products in new countries.
+      - role: CEO
+        time: April, 2020 — May, 2021
+        company: r_keeper
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I managed a company that creates the #1 solutions for HoReCa automation with a client base of 60,000+ facilities in 54 countries. The company size is 450 people.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-            
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at. 
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
-        
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+          Responsibilities:
+          - Forming the company's development strategy and its products, decomposing the strategy, and setting goals for key areas (commerce, marketing, product, IT).
+          - Monitoring the company's business and its performance through tools (OKR, KPI, product metrics, financial reporting) and close work with the CEO-1 team, operational response to changes, and making key decisions.
+          - Forming the company's budget, defending it before shareholders, managing the budget and its changes depending on business indicators.
+          - Managing the CEO-1 team (CCO/CMO, CPO, CTO, CFO, HRD).
+          - Managing relations with the company's partners and key contractors.
+          - Integrating the company's business and its processes into the VK (Mail.ru) and Sber ecosystems.
+          - Preparing and presenting reports for investors and shareholders, defending the company's strategy and key decisions.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+          Achievements:
+          - Successfully maintained the business during the COVID-19 pandemic despite the complete paralysis of the HoReCa market, followed by refocusing on rapid development and ultimately improving YoY indicators (compared to the years before the pandemic).
+          - Successfully met the shareholders' product and financial goals for 2020 and H1 2021 with 99.98% accuracy.
+          - Built a CEO-1 team from scratch (hiring CCO/CMO, CPO, CTO, CFO + integrating into the company under tight deadlines and remote work conditions), instilled a culture of all team members working in a business partnership mode and deep involvement in cross-dependent goals.
+          - Initiated and initially led a global update of products (UX, UI, adding new functionality, using ML and data) with a 29-year legacy, with subsequent successful market launch of updated products.
+          - Successfully integrated part of the company's business (SberFood, Afisha.Restaurants, Plazius Marketing Cloud) into VK and Sber ecosystem products: Delivery Club, Sberbank Online.
+      - role: CPO
+        time: October, 2018 — April, 2020
+        company: Lamoda
+        details: |
+          I led the IT Product & Project Management Office and was responsible for the processes and results of the product and project activities at Lamoda.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+          Responsibilities:
+          - Creation and control of the processes of initiation, prioritization, development, and launches of changes in the product and implementation of projects across all areas of Lamoda.
+          - Control and execution of the Lamoda project portfolio, risk management across the entire portfolio.
+          - Hiring, onboarding, training, and motivating the IT PMO team.
+          - Planning, control, and execution of the IT PMO department budget (salaries, bonuses, training, project budgets).
+          - Creation and presentation of reporting documents for CEO/CEO-1 and shareholders.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+          My team:
+          - 13 Product Managers.
+          - 7 Project Managers.
+          - 5 System Analysts.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+          Achievements:
+          -Together with the team, I successfully launched 200+ projects across all areas of the company: from developing the main business to automating HR processes and information security projects.
+          - I built the IT PMO team from scratch, taking responsibility for the entire cycle of the company's product and project changes, ultimately creating a culture of IT PMO working in a "one window" mode for IT and business customers.
+          - I created a transparent process for distributing IT FTE between product directions to achieve autonomy, reduce the cost of cross-functional planning, and accelerate time-to-market.
+           - I established a system for generating automated project reports and monitoring roadmaps based on JIRA and Tableau.
+      - role: Senior Product Manager
+        time: February, 2018 — September, 2018
+        company: Yandex Market
+        details: |
+          I was responsible for the development of several products in Yandex Market (iOS and Android apps Beru.ru, general WMS and warehouse logistics of Market and Beru).
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+          Responsibilities:
+          - Managing products in their full development cycle (defining key metrics, data analysis, generating ideas, confirming hypotheses, product tests, development, etc.).
+          - Conducting research and audits of ready-made product and technical solutions available in the market for launching new types of businesses or strengthening existing ones.
+          - Managing product, development, and testing teams, managing the development cycle and general delivery to production, including infrastructure projects for CI/CD.
+          - Monitoring key metrics of directions, creating and presenting reports on the results of streams.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+          Achievements:
+          - Successfully launched the mobile apps Beru.ru and the first proprietary fulfillment center of the Market.
+          - Achieved steady growth of CSI through changes and tuning of OPS-products and operational processes of Beru.ru.
+      - role: Senior Project Manager
+        time: March, 2014 — January, 2018
+        company: Lamoda
+        details: |
+          I led the project and product activities across the entire operational block of Lamoda: warehouse logistics, last mile logistics, call center, photo studio, ERP, CRM, and order processing.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+          Responsibilities included:
+          - Creation of roadmaps and planning tasks / features / projects for operational and backend products.
+          - Improvement of product metrics (main ones: CPO, time-to-client, fail rate).
+          - Management of product, project, development, and QA teams.
+          - Establishment of the entire development cycle, acceleration of time-to-market while maintaining SLA for unavailability and incidents.
+          - Creation and presentation of reporting documents for CEO/CEO-1 and shareholders.
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+          My team consisted of:
+          - 6 Product Managers.
+          - 3 Project Managers.
+          - 80 Developers.
+          - 12 QA Specialists.
+          - 3 System Analysts.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+          Achievements:
+          - Led and successfully launched the project to create our own fulfillment center, where I was responsible for the entire IT stream from the product side: creation and development of a custom WMS, creation of operational processes within the WMS and their algorithmic tuning, integration with internal services, integration with automated warehouse equipment (conveyors, HDS, P2L, monitoring and alert systems), etc.
+          - Significantly reduced the CPO across the entire operational block, dramatically increased the overall efficiency of all operational processes (speed and quality of acceptance, speed of placement on stock, speed of getting stock on the site, etc., up to the speed of printing receipts at the customer's door).
+          - For 3 years in a row, I successfully led the product and IT part of Black Friday, with a peak load of ~2500 orders per second, without problems and crashes on the IT and the entire operational block side.
+          - Together with the team, successfully launched more than a hundred projects in the OPS part of Lamoda.
+      - role: Project Manager
+        time: August, 2012 — March, 2018
+        company: Creara
+        details: |
+          The company engaged in traffic arbitrage, trading goods through CPA, and developing its own CPA platform.
+          In a hybrid role of project manager and product manager, I was involved in the creation and development of CPA and CRM, from initial ideas to successful commercial launches.
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
